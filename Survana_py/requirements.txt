@@ -1,0 +1,6 @@
+transformers
+client
+torch
+FlagEmbedding
+sentence_transformers
+sklearn
