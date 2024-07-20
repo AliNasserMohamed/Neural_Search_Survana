@@ -143,17 +143,30 @@ retrieve_most_similar_from_qdrant
 retrieve_most_similar
 
 ●	Purpose: High-level function to retrieve similar documents, abstracting the backend.
+
 ●	Parameters: Type (e.g., "qdrant"), query.
+
 ●	Process:
+
 ○	Define Qdrant API key and URL.
+
 ○	Call retrieve_most_similar_from_qdrant with parameters.
+
 ○	Return the similar texts.
 
 
 Requirements libraries  :
+
 transformers
+
 qdrant-client
+
 torch
+
 FlagEmbedding
+
 sentence_transformers
+
 sklearn
+
+project link : https://github.com/AliNasserMohamed/Neural_Search_Survana
